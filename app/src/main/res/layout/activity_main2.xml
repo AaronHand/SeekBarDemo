@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:columnOrderPreserved="false"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/seekBar"
+        android:layout_gravity="center_horizontal"
+        android:scrollbarSize="20dp"
+        android:max="100"
+        android:progress="0"
+        android:indeterminate="false" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switch_label"
+        android:id="@+id/switch1"
+        android:checked="false"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:padding="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/value_label"
+        android:id="@+id/valueLabel"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:textSize="100sp"
+        android:textColor="#1367f8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/touch_label"
+        android:id="@+id/touchTextView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="#ff1e69" />
+</LinearLayout>
